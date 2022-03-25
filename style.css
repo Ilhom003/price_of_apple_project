@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 400px;
+  height: 500px;
+  /* background-color: blue; */
+  overflow-y: scroll;
+  padding: 10px;
+  /* border: 2px solid rgb(199, 19, 19); */
+  box-shadow: 2px 2px 2px 2px;
+}
+.apple {
+  width: 100%;
+  height: 120px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid whitesmoke;
+}
+.apple .left {
+  width: 20%;
+  height: 80%;
+  /* background-color: seagreen; */
+}
+.apple .left img {
+  width: 100%;
+  height: 100%;
+}
+.apple .right {
+  width: 75%;
+  height: 80%;
+  /* background-color: springgreen; */
+}
+.apple .right-top {
+  width: 100%;
+  height: 45%;
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.apple .right-top button {
+  width: 80px;
+  height: 28px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(41, 240, 31);
+}
+.apple .right-top button:hover{
+  cursor: pointer;
+}
+
+.apple .right-top h1 {
+  padding-left: 10px;
+}
+.apple .right-bottom {
+  width: 100%;
+  height: 55%;
+  /* background-color: yellow; */
+  display: flex;
+}
+.bottom1 {
+  width: 25%;
+  height: 100%;
+  /* background-color: indigo; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom2 {
+  width: 25%;
+  height: 100%;
+  /* background-color: rgb(126, 86, 155); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom3 {
+  width: 25%;
+  height: 100%;
+  /* background-color: goldenrod; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom4 {
+  width: 25%;
+  height: 100%;
+  /* background-color: rgb(61, 134, 179); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
